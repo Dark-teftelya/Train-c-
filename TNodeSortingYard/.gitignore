@@ -1,0 +1,22 @@
+# Сборочные артефакты
+bin/*
+obj/*
+*.o
+*.obj
+*.exe
+*.dylib
+*.so
+
+# Файлы IDE
+.vscode/
+*.user
+*.suo
+*.sln.cache
+
+# Временные файлы
+*.log
+*.tmp
+.DS_Store
+
+# SFML (исключаем всю папку, если не нужна в репозитории)
+SFML/
